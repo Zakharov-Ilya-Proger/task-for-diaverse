@@ -12,6 +12,8 @@ from workWithDb import get_login, get_all_books, is_booked, book_the_book, my_bo
 
 app = FastAPI()
 
+# А фронт украли цыгане, я на backend иду. Срян, я могу в js и react, но нет не сил не желания 3 часа копаться в CSS
+
 
 app.add_middleware(
     CORSMiddleware,
